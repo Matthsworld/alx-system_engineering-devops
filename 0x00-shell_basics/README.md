@@ -1,1 +1,1 @@
-My readme for the long text format script
+My readme for hidden files
