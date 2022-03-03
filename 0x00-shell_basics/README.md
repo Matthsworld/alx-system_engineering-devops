@@ -1,1 +1,1 @@
-My readme for commas, not periods
+My readme for file type school
