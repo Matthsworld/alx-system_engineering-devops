@@ -1,1 +1,1 @@
-My readme for bye bye my first directory
+My readme for lists
