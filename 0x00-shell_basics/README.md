@@ -1,1 +1,1 @@
-My readme for bye bye betty
+My readme for bye bye my first directory
