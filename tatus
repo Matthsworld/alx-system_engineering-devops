@@ -1,0 +1,91 @@
+[33mcommit 480aa3d3049256de17599d3afa7f78c51b773c6f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: matthsworld <matthsworld@gmail.com>
+Date:   Mon Mar 7 05:01:04 2022 -0800
+
+    ALL FILES
+
+[1mdiff --git a/0x02-shell_redirections/1-confused_smiley b/0x02-shell_redirections/1-confused_smiley[m
+[1mnew file mode 100755[m
+[1mindex 0000000..a9bf588[m
+[1m--- /dev/null[m
+[1m+++ b/0x02-shell_redirections/1-confused_smiley[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m#!/bin/bash[m
+[1mdiff --git a/0x02-shell_redirections/10-no_more_js b/0x02-shell_redirections/10-no_more_js[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/100-empty_casks b/0x02-shell_redirections/100-empty_casks[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/101-gifs b/0x02-shell_redirections/101-gifs[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/102-acrostic b/0x02-shell_redirections/102-acrostic[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/103-the_biggest_fan b/0x02-shell_redirections/103-the_biggest_fan[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/11-directories b/0x02-shell_redirections/11-directories[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/12-newest_files b/0x02-shell_redirections/12-newest_files[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/13-unique b/0x02-shell_redirections/13-unique[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/14-findthatword b/0x02-shell_redirections/14-findthatword[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/15-countthatword b/0x02-shell_redirections/15-countthatword[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/16-whatsnext b/0x02-shell_redirections/16-whatsnext[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/17-hidethisword b/0x02-shell_redirections/17-hidethisword[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/18-letteronly b/0x02-shell_redirections/18-letteronly[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/19-AZ b/0x02-shell_redirections/19-AZ[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/2-hellofile b/0x02-shell_redirections/2-hellofile[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/20-hiago b/0x02-shell_redirections/20-hiago[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/21-reverse b/0x02-shell_redirections/21-reverse[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/22-users_and_homes b/0x02-shell_redirections/22-users_and_homes[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/3-twofiles b/0x02-shell_redirections/3-twofiles[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/4-lastlines b/0x02-shell_redirections/4-lastlines[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/5-firstlines b/0x02-shell_redirections/5-firstlines[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/6-third_line b/0x02-shell_redirections/6-third_line[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/7-file b/0x02-shell_redirections/7-file[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/8-cwd_state b/0x02-shell_redirections/8-cwd_state[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/9-duplicate_last_line b/0x02-shell_redirections/9-duplicate_last_line[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x02-shell_redirections/iacta b/0x02-shell_redirections/iacta[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e69de29[m
