@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html class="no-js" lang=""><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://cmdchallenge.com/favicon.ico" type="image/x-icon">
+    
+    <title>Command Challenge!</title>
+
+    <meta name="description" content="One-line shell challenges, to help improve your skill on the commandline.">
+    <script type="module" crossorigin="" src="2-next_9_tasks_files/index.js"></script>
+    <link rel="stylesheet" href="2-next_9_tasks_files/index.css">
+  </head>
+  <body>
+      <noscript>
+          It looks like you don't have javascript enabled which is required for cmdchallenge.
+      </noscript>
+
+      <div class="navbar">
+        <div id="links">
+          <ul><li class="link"><a href="https://cmdchallenge.com/"><img src="2-next_9_tasks_files/cmdchallenge-round.png" alt="cmdchallenge"></a></li><li class="link"><a href="https://oops.cmdchallenge.com/"><img src="2-next_9_tasks_files/1F92D.png" alt="oops"></a></li><li class="link"><a href="https://12days.cmdchallenge.com/"><img src="2-next_9_tasks_files/1F384.png" alt="12days"></a></li><li class="link"><a href="https://gitlab.com/jarv/cmdchallenge"><img src="2-next_9_tasks_files/gitlab.png" alt="gitlab"></a></li><li class="link"><a href="mailto:info@cmdchallenge.com"><img src="2-next_9_tasks_files/email.png" alt="email"></a></li></ul>
+        </div>
+        <div id="header">
+          <div class="image">
+            <a id="header-img" href="https://cmdchallenge.com/"><img src="2-next_9_tasks_files/cmdchallenge-round.png" alt=""></a>
+          </div>
+          <div class="title">
+            <div><a id="header-text" href="https://cmdchallenge.com/" style="display: inline;">Command Challenge</a></div>
+            <div class="won" style="display: none;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div id="badges"><div tabindex="-1" class="img-container hello_world inactive-badge"><a title="hello world" id="badge_hello_world" href="#/hello_world"><img class="badge" src="2-next_9_tasks_files/1F40C.png" alt="hello_world"></a></div><div tabindex="-1" class="img-container current_working_directory inactive-badge"><a title="cwd" id="badge_current_working_directory" href="#/current_working_directory"><img class="badge" src="2-next_9_tasks_files/1F98B.png" alt="current_working_directory"></a></div><div tabindex="-1" class="img-container list_files inactive-badge"><a title="list files" id="badge_list_files" href="#/list_files"><img class="badge" src="2-next_9_tasks_files/1F41B.png" alt="list_files"></a></div><div tabindex="-1" class="img-container print_file_contents inactive-badge"><a title="file contents" id="badge_print_file_contents" href="#/print_file_contents"><img class="badge" src="2-next_9_tasks_files/1F41C.png" alt="print_file_contents"></a></div><div tabindex="-1" class="img-container last_lines inactive-badge"><a title="last lines" id="badge_last_lines" href="#/last_lines"><img class="badge" src="2-next_9_tasks_files/1F578.png" alt="last_lines"></a></div><div tabindex="-1" class="img-container create_file inactive-badge"><a title="Create a file" id="badge_create_file" href="#/create_file"><img class="badge" src="2-next_9_tasks_files/1F433.png" alt="create_file"></a></div><div tabindex="-1" class="img-container create_directory inactive-badge"><a title="Create a directory" id="badge_create_directory" href="#/create_directory"><img class="badge" src="2-next_9_tasks_files/1F40B.png" alt="create_directory"></a></div><div tabindex="-1" class="img-container copy_file inactive-badge"><a title="copy file" id="badge_copy_file" href="#/copy_file"><img class="badge" src="2-next_9_tasks_files/1F42C.png" alt="copy_file"></a></div><div tabindex="-1" class="img-container move_file inactive-badge"><a title="move file" id="badge_move_file" href="#/move_file"><img class="badge" src="2-next_9_tasks_files/1F41F.png" alt="move_file"></a></div><div tabindex="-1" class="img-container create_symlink inactive-badge"><a title="create symlink" id="badge_create_symlink" href="#/create_symlink"><img class="badge" src="2-next_9_tasks_files/1F420.png" alt="create_symlink"></a></div><div tabindex="-1" class="img-container delete_files inactive-badge"><a title="delete files" id="badge_delete_files" href="#/delete_files"><img class="badge" src="2-next_9_tasks_files/1F421.png" alt="delete_files"></a></div><div tabindex="-1" class="img-container remove_files_with_extension inactive-badge"><a title="remove files with extension" id="badge_remove_files_with_extension" href="#/remove_files_with_extension"><img class="badge" src="2-next_9_tasks_files/1F43A.png" alt="remove_files_with_extension"></a></div><div tabindex="-1" class="img-container find_string_in_a_file inactive-badge"><a title="find string" id="badge_find_string_in_a_file" href="#/find_string_in_a_file"><img class="badge" src="2-next_9_tasks_files/1F41D.png" alt="find_string_in_a_file"></a></div><div tabindex="-1" class="img-container search_for_files_containing_string inactive-badge"><a title="search for string" id="badge_search_for_files_containing_string" href="#/search_for_files_containing_string"><img class="badge" src="2-next_9_tasks_files/1F41E.png" alt="search_for_files_containing_string"></a></div><div tabindex="-1" class="img-container search_for_files_by_extension inactive-badge"><a title="search for extension" id="badge_search_for_files_by_extension" href="#/search_for_files_by_extension"><img class="badge" src="2-next_9_tasks_files/1F997.png" alt="search_for_files_by_extension"></a></div><div tabindex="-1" class="img-container search_for_string_in_files_recursive inactive-badge"><a title="search recursive" id="badge_search_for_string_in_files_recursive" href="#/search_for_string_in_files_recursive"><img class="badge" src="2-next_9_tasks_files/1F577.png" alt="search_for_string_in_files_recursive"></a></div><div tabindex="-1" class="img-container extract_ip_addresses inactive-badge"><a title="find ip address" id="badge_extract_ip_addresses" href="#/extract_ip_addresses"><img class="badge" src="2-next_9_tasks_files/1F982.png" alt="extract_ip_addresses"></a></div><div tabindex="-1" class="img-container count_files inactive-badge"><a title="count files" id="badge_count_files" href="#/count_files"><img class="badge" src="2-next_9_tasks_files/1FAB0.png" alt="count_files"></a></div><div tabindex="-1" class="img-container simple_sort inactive-badge"><a title="simple sort" id="badge_simple_sort" href="#/simple_sort"><img class="badge" src="2-next_9_tasks_files/1FAB1.png" alt="simple_sort"></a></div><div tabindex="-1" class="img-container count_string_in_line inactive-badge"><a title="count the strings" id="badge_count_string_in_line" href="#/count_string_in_line"><img class="badge" src="2-next_9_tasks_files/1F9A0.png" alt="count_string_in_line"></a></div><div tabindex="-1" class="img-container split_on_a_char inactive-badge"><a title="split on a char" id="badge_split_on_a_char" href="#/split_on_a_char"><img class="badge" src="2-next_9_tasks_files/1F435.png" alt="split_on_a_char"></a></div><div tabindex="-1" class="img-container print_number_sequence inactive-badge"><a title="generate a number sequence" id="badge_print_number_sequence" href="#/print_number_sequence"><img class="badge" src="2-next_9_tasks_files/1F436.png" alt="print_number_sequence"></a></div><div tabindex="-1" class="img-container replace_text_in_files inactive-badge"><a title="replace text in files" id="badge_replace_text_in_files" href="#/replace_text_in_files"><img class="badge" src="2-next_9_tasks_files/1F98A.png" alt="replace_text_in_files"></a></div><div tabindex="-1" class="img-container sum_all_numbers inactive-badge"><a title="sum the numbers" id="badge_sum_all_numbers" href="#/sum_all_numbers"><img class="badge" src="2-next_9_tasks_files/1F431.png" alt="sum_all_numbers"></a></div><div tabindex="-1" class="img-container just_the_files inactive-badge"><a title="only the filenames" id="badge_just_the_files" href="#/just_the_files"><img class="badge" src="2-next_9_tasks_files/1F981.png" alt="just_the_files"></a></div><div tabindex="-1" class="img-container remove_extensions_from_files inactive-badge"><a title="remove extensions" id="badge_remove_extensions_from_files" href="#/remove_extensions_from_files"><img class="badge" src="2-next_9_tasks_files/1F42F.png" alt="remove_extensions_from_files"></a></div><div tabindex="-1" class="img-container replace_spaces_in_filenames active-badge"><a title="replace spaces" id="badge_replace_spaces_in_filenames" href="#/replace_spaces_in_filenames"><img class="badge" src="2-next_9_tasks_files/1F434.png" alt="replace_spaces_in_filenames"></a></div></div>
+
+        <div id="solution-box" class="row">
+          <div class="col">
+            <div class="tabs">
+              <div class="tab">
+                <input type="checkbox" id="chck1">
+                <label class="tab-label" for="chck1">View Solutions</label>
+                <div class="tab-content">
+                  <div id="solutions-wrapper">
+                    <div class="solutions-status"></div>
+                  <pre><code id="solutions" class="language-bash bash hljs">ls|tr <span class="hljs-string">' '</span> <span class="hljs-string">'.'</span>
+ls |tr <span class="hljs-string">' '</span> <span class="hljs-string">'.'</span>
+ls|tr <span class="hljs-string">' '</span> <span class="hljs-string">'. '</span>
+ls -1|tr <span class="hljs-string">' '</span> .
+ls| tr <span class="hljs-string">' '</span> <span class="hljs-string">'.'</span>
+ls | tr <span class="hljs-string">' '</span> <span class="hljs-string">'.'</span>
+ls |tr <span class="hljs-string">' '</span> <span class="hljs-string">'. '</span>
+ls | tr <span class="hljs-string">' '</span> <span class="hljs-string">'. '</span>
+ls|sed <span class="hljs-string">'s| |.|g'</span>
+ls|sed <span class="hljs-string">'s/ /\./g'</span>
+ls * | tr <span class="hljs-string">' '</span> <span class="hljs-string">'.'</span>
+ls ./| tr <span class="hljs-string">" "</span> <span class="hljs-string">"."</span>
+ls -1 |tr <span class="hljs-string">' '</span> <span class="hljs-string">'.'</span>
+ls -A| tr <span class="hljs-string">' '</span> <span class="hljs-string">'.'</span>
+ls -1r|tr <span class="hljs-string">' '</span> <span class="hljs-string">'.'</span>
+ls| sed <span class="hljs-string">'s/ /./g'</span>
+ls |sed <span class="hljs-string">'s/ /./g'</span>
+ls | sed <span class="hljs-string">'s/ /./g'</span>
+ls -1 | tr <span class="hljs-string">' '</span> <span class="hljs-string">'.'</span>
+ls -A | tr <span class="hljs-string">' '</span> <span class="hljs-string">'.'</span>
+ls -r | tr <span class="hljs-string">' '</span> <span class="hljs-string">'.'</span>
+ls -h | tr <span class="hljs-string">' '</span> <span class="hljs-string">'.'</span>
+ls | tr -t <span class="hljs-string">' '</span> <span class="hljs-string">'.'</span>
+ls | sed <span class="hljs-string">'s| |.|g'</span>
+ls -p | tr <span class="hljs-string">" "</span> <span class="hljs-string">"."</span>
+ls | sed <span class="hljs-string">'s~ ~.~g'</span>
+ls |sed <span class="hljs-string">'s/\s/./g'</span>
+ls | sed <span class="hljs-string">'s/ /\./g'</span>
+ls -r|sed <span class="hljs-string">'s/ /./g'</span>
+ls |sed <span class="hljs-string">'s/\ /\./g'</span>
+ls | sed <span class="hljs-string">'s/\ /./g'</span>
+ls -1|sed <span class="hljs-string">'s/ /./g'</span>
+ls | sed s,<span class="hljs-string">" "</span>,\.,g
+ls -A1 | tr <span class="hljs-string">" "</span> <span class="hljs-string">"."</span>
+ls | sed <span class="hljs-string">'s/\s/./g'</span>
+ls -1|sed <span class="hljs-string">'s/ /\./g'</span>
+ls | sed <span class="hljs-string">'s/\ /\./g'</span>
+ls *\ * | tr <span class="hljs-string">' '</span> <span class="hljs-string">'.'</span>
+ls|sed -r <span class="hljs-string">"s/ /\./g"</span>
+ls -A| sed <span class="hljs-string">'s/ /./g'</span>
+ls |sed -e <span class="hljs-string">'s/ /./g'</span>
+ls -r | sed <span class="hljs-string">'s/ /./g'</span>
+ls | sed <span class="hljs-string">'s/\s\+/./g'</span>
+ls -1 | sed <span class="hljs-string">'s/ /./g'</span>
+ls | sed -e <span class="hljs-string">'s/ /./g'</span>
+ls -h | tr -t <span class="hljs-string">' '</span> <span class="hljs-string">'.'</span>
+rename <span class="hljs-string">"s/ /./g"</span> *;ls
+ls | sed -E <span class="hljs-string">'s/ /./g'</span>
+ls -1 | sed <span class="hljs-string">'s/ /\./g'</span>
+ls | sed -e <span class="hljs-string">'s/ /./g;'</span>
+</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="learn-box" class="row">
+          <div class="col">
+            <div class="tabs-learn">
+              <div class="tab">
+                <input type="checkbox" id="chck2">
+                <label class="tab-label" for="chck2">Learn</label>
+                <div class="tab-content">
+                  <div id="learn"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="challenge-desc">
+          <div class="img-container"><img src="2-next_9_tasks_files/1F434.png" alt="replace spaces"></div>
+          <div class="desc-container"><p>The files in this challenge contain spaces.
+List all of the files (filenames only) in the current directory but replace all spaces with
+a '.' character.</p>
+</div>
+        </div>
+
+
+        <div id="term-spinner" style="display: none;"><img src="2-next_9_tasks_files/spinner.gif" alt=""></div>
+        <div id="term-challenge" class="terminal" style="--char-width:8; --terminal-height:70; --terminal-x:0; --terminal-y:0; --terminal-scroll:0;"><div class="terminal-wrapper" style=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 14" style="display: none;"><title id="title2">rounded</title><path id="terminal-broken-image" d="m 14,10 h 2 v 1 a 3,3 0 0 1 -3,3 H 3 A 3,3 0 0 1 0,11 H 4.5 A 1.00012,1.00012 0 0 0 5.207,10.707 L 6.5,9.414 7.793,10.707 a 0.99963,0.99963 0 0 0 1.41406,0 l 2.36719,-2.36719 1.80127,1.44092 A 0.99807,0.99807 0 0 0 14,10 Z M 16,3 V 8 H 14.35059 L 12.12451,6.21924 A 0.99846,0.99846 0 0 0 10.793,6.293 L 8.5,8.586 7.207,7.293 a 0.99962,0.99962 0 0 0 -1.41406,0 L 4.08594,9 H 0 V 3 A 3,3 0 0 1 3,0 h 10 a 3,3 0 0 1 3,3 z M 6,4.5 A 1.5,1.5 0 1 0 4.5,6 1.5,1.5 0 0 0 6,4.5 Z"></path></svg><div class="terminal-output" role="log"></div><div class="cmd" style="width: 100%; --cursor-line:0;"><div class="cmd-wrapper" style=""><span class="cmd-prompt" style="visibility: visible;"><span data-text="("><span style="width: 1ch;">(</span></span><span style="color:red;--color:red;--original-color:red;background-color:black;--background:black;" data-text="1"><span style="width: 1ch;">1</span></span><span data-text=")&gt;&nbsp;"><span style="width: 3ch;">)&gt;&nbsp;</span></span></span><div class="cmd-cursor-line" role="presentation" aria-hidden="true"><span></span><span class="cmd-cursor"><span data-text="" class="end"><span>&nbsp;<span></span></span></span></span><span></span></div></div><textarea autocapitalize="none" spellcheck="false" tabindex="1" class="cmd-clipboard" data-cmd-prompt="(1)&gt;&nbsp;"></textarea></div></div><div class="terminal-font">&nbsp;</div><div class="terminal-fill"></div><div class="terminal-scroll-marker"><div style="height: 20px;"></div></div></div>
+        <div id="info-wrapper">
+          <div id="info-box" style="display: block;">
+            <div class="img"><img src="2-next_9_tasks_files/1F482.png" alt="correct"></div>
+            <div class="text">Correct! You have a new challenge!</div>
+            <div class="gradient correct"></div>
+          </div>
+          <div id="completions"></div>
+        </div>
+        <pre id="challenge-output" style=""><span>rm: cannot remove '2038': Is a directory</span><span>rm: cannot remove '2038/01': Is a directory</span><span>rm: cannot remove '2038/01/19': Is a directory</span></pre>
+      </div>
+      <div class="footer">
+        <p>
+        Site built with ♡ using <a href="https://terminal.jcubic.pl/">jquery.terminal</a> / <a href="https://openmoji.org/">Openmoji</a> / <a href="https://nim-lang.org/">Nim</a> / <a href="https://golang.org/">Golang</a><br>
+        <a href="https://jarv.org/tags/cmdchallenge/">Read more about cmdchallenge</a>
+        </p>
+      </div>
+      <script src="2-next_9_tasks_files/jquery_002.js" type="text/javascript"></script>
+      <script src="2-next_9_tasks_files/jquery_003.js" type="text/javascript"></script>
+      <script src="2-next_9_tasks_files/keyboard-polyfill-0.js" type="text/javascript"></script>
+      <script src="2-next_9_tasks_files/jquery.js" type="text/javascript"></script>
+      
+  
+
+<iframe src="2-next_9_tasks_files/blank_003.htm" style="z-index: 2147483647; border: medium none; top: 0px; left: 0px; margin: 0px; clip: auto; display: none; position: absolute !important; background-color: transparent; height: 626px; width: 1007px;" scrolling="no" id="firefox-screenshots-selection-iframe" role="dialog"></iframe><iframe src="2-next_9_tasks_files/blank_003.htm" style="z-index: 2147483647; border: medium none; top: 0px; left: 0px; margin: 0px; clip: auto; position: fixed !important; background-color: transparent; width: 100%; height: 100%; display: block;" scrolling="no" id="firefox-screenshots-preselection-iframe" role="dialog"></iframe><iframe src="2-next_9_tasks_files/blank_003.htm" style="z-index: 2147483647; border: medium none; top: 0px; left: 0px; margin: 0px; clip: auto; display: none; position: fixed !important; background-color: transparent; height: 100%; width: 100%;" scrolling="no" id="firefox-screenshots-preview-iframe" role="dialog"></iframe></body></html>
