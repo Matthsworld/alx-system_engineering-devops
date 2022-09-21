@@ -1,15 +1,13 @@
-# Configuration management
-Project done during **Full Stack Software Engineering studies** at **ALX School**. It aims to learn about server configuration management using **Puppet**.
+# 0x0A Configuration management
 
-## Technologies
-* Scripts written in Bash
-* Tested on Ubuntu 20.04 LTS
-* Puppet
+## Description
+This project is an introduction to Configuration Management, as part of the first year curriculum of Holberton School.
+This project contains very basic Puppet manifests.
 
-## Files
-
-| Filename | Description |
-| -------- | ----------- |
-| `0-create_a_file.pp` | Create a file in `/tmp` |
-| `1-install_a_package.pp` | Install `puppet-lint` |
-| `2-execute_a_command.pp` | Create a manifest that kills a process named `killmenow` |
+## Table of contents
+Files | Description
+----- | -----------
+[0-create_a_file.pp](./0-create_a_file.pp) | Puppet manifest that creates a file in the /tmp directory
+[1-install_a_package.pp](./1-install_a_package.pp) | Puppet manifest that installs puppet-lint
+[2-execute_a_command.pp](./2-execute_a_command.pp) | Puppet manifest that kills a process named killmenow
+[killmenow](./killmenow) | Test bash script to kill with manifest 2-execute_a_command.pp
