@@ -1,7 +1,5 @@
 # 0x11. What happens when you type google.com in your browser and press Enter
 ## Details
-      By Sylvain Kalache          Weight: 1                Ongoing project - started 01-17-2022, must end by 01-24-2022 (in about 18 hours)          - you're done with 200% of tasks.      Manual QA review must be done          (request it when you are done with the project)      ## Concepts
-For this project, students are expected to look at this concept:
 * [Technical Writing Tips and Tricks for students](https://intranet.hbtn.io/concepts/134) 
 
 ## Background Context
@@ -35,7 +33,7 @@ Publish your blog post on Medium or LinkedIn; share the URL of your blog post in
 Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.
  Task URLs #### Add URLs here:
  Github information Repo:
-* GitHub repository:  ` holberton-system_engineering-devops ` 
+* GitHub repository:  ` alx-system_engineering-devops ` 
 * Directory:  ` 0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter ` 
 * File:  ` 0-blog_post ` 
  Self-paced manual review  Panel footer - Controls 
@@ -61,21 +59,21 @@ Share the URL of your diagram image in your answer file and il the field below.
 Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.
  Task URLs #### Add URLs here:
  Github information Repo:
-* GitHub repository:  ` holberton-system_engineering-devops ` 
+* GitHub repository:  ` alx-system_engineering-devops ` 
 * Directory:  ` 0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter ` 
 * File:  ` 1-what_happen_when_diagram ` 
  Self-paced manual review  Panel footer - Controls 
 ### 2. Contribute!
           #advanced         Progress vs Score  Task Body Folks on the Internet have been trying to put together a comprehensive answer to the question. Help them by submitting a pull request. Paste the link in your answer file.
 [https://github.com/alex/what-happens-when#the-g-key-is-pressed](https://intranet.hbtn.io/rltoken/NjQ0PbOLIUMKW23EnCZLTA) 
-[solution](https://github.com/kateincoding/holberton-system_engineering-devops/blob/main/0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter/1-diagram/Networking-google.png)
+[solution](https://github.com/matthsworld/alx-system_engineering-devops/blob/main/0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter/1-diagram/Networking-google.png)
 Requirements:
 * The pull request must bring meaningful value (not a typo correction or style improvement)
 * Share the pull request URL in your answer file and in the field below
 Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.
  Task URLs #### Add URLs here:
  Github information Repo:
-* GitHub repository:  ` holberton-system_engineering-devops ` 
+* GitHub repository:  ` alx-system_engineering-devops ` 
 * Directory:  ` 0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter ` 
 * File:  ` 2-contribution-to_what-happens-when_github_answer ` 
  Self-paced manual review  Panel footer - Controls 
